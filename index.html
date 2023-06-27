@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Ronald Millan | Portafolio</title>
+</head>
+<body>
+    
+    <header>
+
+        <nav class="container menu">
+            <a href="#" class="logo">Ronald</a>
+            <ul class="menu__items">
+                <li data-nav="sobre-mi"><a id="sobre-mi-item">Sobre mi</a></li>
+                <li data-nav="skills"><a id="skills-item">Skills</a></li>
+                <li data-nav="formacion"><a id="formacion-item">Formacion</a></li>
+                <li data-nav="proyectos"><a id="proyectos-item">Proyectos</a></li>
+                <li data-nav="contacto"><a id="contacto-item">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <button class="hamburger hamburger--collapse" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </header>
+
+    <section   class="container container__presentation">
+        <article>
+            <div>
+                <p>Hola,</p>
+                <p>Soy <span>Ronald Millan</span></p>
+                <p>Fronted Develover</p>
+            </div>
+            <a href="assets/cv.pdf" target="_blank" class="btn-cv">Ver CV</a>
+            <div class="accounts">
+                <a href="https://github.com/Ronald-Proyectos" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ronald-andres-millan-romero-856801244" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </article>
+        <figure class="photo">
+            <img src="img/mi-foto.jpg" alt="mi-foto">
+        </figure>
+    </section>
+
+    <section id="sobre-mi" class="container container__about-me">
+        <h1>Sobre Mi</h1>
+        <p>Soy Ronald Millan tengo 19 años, apasionado por el desarrollo fronted y por el aprendizaje autodidacta, me gusta dar todo de mi al momento de realizar o colaborar en un proyecto, siempre me esfuerzo al maximo por mas simple o compleja que pueda ser la tarea, por otro lado tengo como hobbies, ir al gym, ver animes y jugar video juegos. Considero que tengo como habilidades blandas la empatia, gestion de tiempo, trabajo en equipo y adataptabilidad.</p>
+    </section>
+
+    <section id="skills" class="container container__skills">
+        <h1>Skills</h1>
+        <div class="flex-cards">
+            <article class="card__skill">
+                <p>01</p>
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+            </article>
+            <article class="card__skill">
+                <p>02</p>
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+            </article>
+            <article class="card__skill">
+                <p>03</p>
+                <i class="fa-brands fa-square-js"></i>
+                <p>JavaScript</p>
+            </article>
+            <article class="card__skill">
+                <p>04</p>
+                <i class="fa-brands fa-bootstrap"></i>
+                <p>Bootstrap</p>
+            </article>
+            <article class="card__skill">
+                <p>05</p>
+                <i class="fa-brands fa-git-alt"></i>
+                <p>GIT</p>
+            </article>
+            <article class="card__skill">
+                <p>06</p>
+                <i class="fa-brands fa-github"></i>
+                <p>GitHub</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="formacion" class="container container__formacion">
+        <h1>Estudios</h1>
+        <div class="grid-card">
+            <article class="card__formacion">
+                <h4>Front End Developer</h4>
+                <h1>ALURA</h1>
+                <p>En curso</p>
+                <p>Implementar el diseño y la funcionalidad de la interfaz de usuario, utilizando tecnologias como HTML, CSS y JavaScript.</p>
+            </article>
+            <article class="card__formacion">
+                <h4>Analisis y Desarrollo de Sistemas de Informacion</h4>
+                <h1>SENA</h1>
+                <p>2021 - 2023</p>
+                <p>Con aptitudes para analizar, diseñar, desarrollar e implementar sistemas de informacion acorde los requisitos del cliente.</p>
+            </article>
+        </div>     
+    </section>
+
+    <section id="proyectos" class="container container__projects">
+        <h1>Proyectos</h1>
+        <div class="grid-projects">
+            <article class="card__project">
+                <div class="img-project">
+                    <img src="img/countries-api.webp" alt="imagen">
+
+                    <div class="details">
+                        <span>REST Countries API</span>
+                        <span>HTML, CSS y JavaScript</span>
+                        <div>
+                            <a href="https://github.com/Ronald-Proyectos/api-rescountries" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://ronald-proyectos.github.io/api-rescountries/" target="_blank">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="card__project">
+                <div class="img-project">
+                    <img src="img/galeria-api.webp" alt="imagen">
+
+                    <div class="details">
+                        <span>Galeria API - Pexels</span>
+                        <span>HTML, CSS y JavaScript</span>
+                        <div>
+                            <a href="https://github.com/Ronald-Proyectos/galeria-api-pexels" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://galeria-api-pexels.netlify.app/" target="_blank">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="card__project">
+                <div class="img-project">
+                    <img src="img/todo-list.webp" alt="imagen">
+
+                    <div class="details">
+                        <span>Todo List</span>
+                        <span>HTML, CSS y JavaScript</span>
+                        <div>
+                            <a href="https://github.com/Ronald-Proyectos/todo-list" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://ronald-proyectos.github.io/todo-list/" target="_blank">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="card__project">
+                <div class="img-project">
+                    <img src="img/encriptador.webp" alt="imagen">
+
+                    <div class="details">
+                        <span>Encriptador de texto</span>
+                        <span>HTML, CSS y JavaScript</span>
+                        <div>
+                            <a href="https://github.com/Ronald-Proyectos/encriptador-de-texto.github.io" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://ronald-proyectos.github.io/encriptador-de-texto.github.io/" target="_blank">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="card__project">
+                <div class="img-project">
+                    <img src="img/galeria-filtrable.webp" alt="imagen">
+
+                    <div class="details">
+                        <span>Galeria Filtrable</span>
+                        <span>HTML, CSS y JavaScript</span>
+                        <div>
+                            <a href="https://github.com/Ronald-Proyectos/galeria-imagenes-filtrable" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://ronald-proyectos.github.io/galeria-imagenes-filtrable/" target="_blank">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contacto" class="container container__contact">
+        <h1>Contacto</h1>
+        <form>
+            <div class="form__group group__nombre">
+                <input type="text" name="nombre" id="nombre" class="form__input input" placeholder=" " required>
+                <label for="nombre" class="form__label">Nombre</label>
+                <span class="form__line"></span>
+                <p class="error">Solo letras y espacios en blanco</p>
+            </div>
+            <div class="form__group group__email">
+                <input type="email" name="email" id="email" class="form__input input" placeholder=" " required>
+                <label for="email" class="form__label">Email</label>
+                <span class="form__line"></span>
+                <p class="error">Correo no valido</p>
+            </div>
+            <div class="form__group group__asunto">
+                <input type="text" name="asunto" id="asunto" class="form__input input" placeholder=" " required>
+                <label for="asunto" class="form__label">Asunto</label>
+                <span class="form__line"></span>
+                <p class="error">Solo letras y espacios en blanco</p>
+            </div>
+            <div class="form__group">
+                <textarea name="mensaje" id="mensaje" class="form__input" cols="30" rows="10" placeholder=" " required></textarea>
+                <label for="mensaje" class="form__label">Mensaje</label>
+                <span class="form__line"></span>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </section>
+
+    <div class="form-response">
+        <p>Los datos han sido enviados correctamente</p>
+        <hr>
+        <button class="btn-cerrar">Ok</button>
+    </div>
+
+    <footer>
+        <p>Desarrollado por <span>Ronald Millan</span></p>
+        <span>2023</span>
+    </footer>
+
+<script src="index.js"></script>
+</body>
+</html>
